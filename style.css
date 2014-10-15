@@ -38,6 +38,6 @@ span:hover {
   color: #d9eac0;
 }
 
-.active {
+#active {
   background-color: gray;
 }

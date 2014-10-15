@@ -37,3 +37,7 @@ span:hover {
 .black {
   color: #d9eac0;
 }
+
+.active {
+  background-color: gray;
+}

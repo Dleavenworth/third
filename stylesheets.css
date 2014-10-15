@@ -22,7 +22,6 @@ body {
   /*background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
   /*background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
   background-color: #0f0505;
-  color: #f8f2e9;
 }
 
 li {
@@ -33,5 +32,8 @@ li {
 
 span:hover {
   color: #282c77;
-  
+}
+
+black {
+  color: #282c77;
 }

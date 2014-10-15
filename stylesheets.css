@@ -8,7 +8,7 @@
     margin: top;
     position: top;
 }
-span {
-    font-family: Serif;
+* {
+    font-family: Times New Roman;
     color: blue;
 }

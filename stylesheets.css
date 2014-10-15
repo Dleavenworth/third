@@ -1,0 +1,24 @@
+span {
+    color: #6699bb;
+    font-family: Comic sans;
+    font-size: 200px;
+    
+}
+* {
+    background-color: #639820;
+}
+div {
+    background-color: #4B936;
+    margin: 10px 10px 10px 10px;
+    color: lime;
+}
+img {
+    margin: 50px 50px 50px 50px;
+    border-color: red;
+    border-width: 4px;
+}
+tr {
+    border-color: blue;
+    border-width:  4px;
+    border: dashed;
+}

@@ -7,7 +7,7 @@
     width: 100%;
     position: static;
 }
-* {
+body {
     font-family: Times New Roman;
   /*background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
   /*background:    -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */

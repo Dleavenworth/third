@@ -29,10 +29,8 @@ li {
   padding: 40px;
 }
 
-li:hover {
-  color: #3cb581;
-}
-span {
+
+span:hover {
   color:#e8f7f5;
-  font-family: Impact;
+  
 }

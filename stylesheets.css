@@ -2,7 +2,7 @@
 .navbar {
     border-radius: 5px;
     border: 4px solid #64c5a5;
-    background-color:#0a6dbb;
+    background-color: #c7fdf7;
     height: 50px;
     width: 100%;
     position: static;
@@ -20,5 +20,4 @@ body {
   background:     -ms-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
-        
 }

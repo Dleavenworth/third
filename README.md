@@ -12,7 +12,7 @@ Plan of action:
 
 6) Keep following 3-5 until I'm content
 
-7) Then begin to host the page
+7) Then admire my work and feel like I'm better than everyone else
 
 8) DONE!
 

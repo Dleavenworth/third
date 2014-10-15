@@ -1,8 +1,8 @@
 
 .navbar {
     border-radius: 5px;
-    border: 4px solid #ffffff;
-    background-color: white;
+    border: 4px solid blue;
+    background-color: #66666;
     height: 50px;
     width: 500px;
     position: static; 

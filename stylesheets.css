@@ -5,7 +5,7 @@
     background-color: #36a34d;
     height: 50px;
     width: 100%;
-    position: absolute;
+    position: inherit;
 }
 
 body {

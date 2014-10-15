@@ -7,6 +7,7 @@
     width: 100%;
     position: static;
 }
+
 body {
     font-family: Times New Roman;
   /*background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
@@ -21,7 +22,12 @@ body {
   background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
 }
+
 li {
   display: inline;
   padding: 40px;
+}
+
+li:hover {
+  color:#482164;
 }

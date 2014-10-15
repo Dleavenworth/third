@@ -1,8 +1,11 @@
 
 #navbar {
-    float: top;
+    border-radius: 5px;
+    border: 4px solid lime;
+    background-color: blue;
+    height: 5px;
     width: 50px;
-    height: 10px;
-    color: lime;
+    margin: top;
+    
     
 }

@@ -5,8 +5,7 @@
     background-color: white;
     height: 50px;
     width: 500px;
-    margin: top;
-    position: top;
+    position: static;
 }
 * {
     font-family: Times New Roman;

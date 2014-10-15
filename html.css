@@ -1,0 +1,32 @@
+.navbar {
+    border-radius: 5px;
+    border: 4px solid #64c5a5;
+    background-color: #f0dde0;
+    height: 50px;
+    width: 100%;
+    position: static;
+}
+
+body {
+    font-family: Times New Roman;
+  /*background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
+  /*background:    -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */
+  /*background:     -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
+  /*background:      -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
+  /*background:         linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
+  /*background-color: #6dd8db; */
+  background: -webkit-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
+}
+
+li {
+  display: inline;
+  padding: 40px;
+}
+
+li:hover {
+  color:#482164;
+}

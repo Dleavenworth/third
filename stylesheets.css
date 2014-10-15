@@ -16,6 +16,7 @@ img {
     margin: 50px 50px 50px 50px;
     border-color: red;
     border-width: 4px;
+    padding: 6px #00000;
 }
 tr {
     border-color: blue;

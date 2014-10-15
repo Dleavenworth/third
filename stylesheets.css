@@ -6,9 +6,9 @@
     height: 50px;
     width: 500px;
     margin: top;
-    float: none;
+    float: left;
 }
 span {
     font-family: Serif;
-    color: lime;
+    color: blue;
 }

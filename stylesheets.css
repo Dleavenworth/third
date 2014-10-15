@@ -6,7 +6,7 @@
     height: 50px;
     width: 500px;
     margin: top;
-    float: top;
+    float: none;
 }
 span {
     font-family: Serif;

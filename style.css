@@ -36,6 +36,8 @@ a:hover {
 
 .black {
   color: #d9eac0;
+  font-family: Verdana;
+  text-align: center;
 }
 
 .active {
@@ -50,4 +52,19 @@ color: #FF0000;
 
 a:visited {
   color: #d9eac0;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+::selection {
+  color: lime;
+  background-color: white;
+}
+
+.header {
+  font-family: Impact;
+  font-size: 20px;
+  text-align: center;
 }

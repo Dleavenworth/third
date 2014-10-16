@@ -40,4 +40,5 @@ span:hover {
 
 .active {
   background-color: white;
+  z-index: -1;
 }

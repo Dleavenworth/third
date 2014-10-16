@@ -44,7 +44,7 @@ a:hover {
   z-index: 0;
   padding: 10px;
   border-radius:  12px;
-  position: static;
+  position: absolute;
 }
 a:link{
 color: #FF0000;

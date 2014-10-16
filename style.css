@@ -43,3 +43,9 @@ span:hover {
   background-color: #3eb2b9;
   z-index: 0;
 }
+a:link{
+color: #FF0000;
+}
+a:visited {
+  color:#FF0000;
+}

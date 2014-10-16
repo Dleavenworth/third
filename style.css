@@ -11,24 +11,22 @@
     /*height: 50px;*/
     width: 100%;
     position: fixed;
-    z-index: 10;
     text-align: center;
 }
 
 body {
-    font-family: Times New Roman;
-  
+    font-family: Times;
   background: -webkit-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* W3C */
-        
 }
 
 li {
   display: inline;
-  padding: 50px;
+  padding: 10px;
+  margin: 50px;
 }
 
 
@@ -42,7 +40,7 @@ a:hover {
 
 .active {
   background-color: #3941aa; /*#3eb2b9;*/
-  padding: 10px;
+  /*padding: 10px;*/
   border-radius:  12px;
   
 }

@@ -40,16 +40,16 @@ a:hover {
 }
 
 .active {
-  background-color: #3eb2b9;
+  background-color: #3941aa; /*#3eb2b9;*/
   z-index: 0;
   padding: 10px;
   border-radius:  12px;
-  border-top: 50px;
-  border-width: 50px;
+  
 }
 a:link{
 color: #FF0000;
 }
+
 a:visited {
   color: #d9eac0;
 }

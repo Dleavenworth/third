@@ -6,7 +6,7 @@
     height: 50px;
     width: 100%;
     position: static;
-    z-index: 5;
+    z-index: 10;
 }
 
 body {

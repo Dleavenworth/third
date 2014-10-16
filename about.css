@@ -40,5 +40,4 @@ span:hover {
 
 .active {
   color: gray;
-  z-index: -1;
 }

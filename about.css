@@ -40,4 +40,5 @@ span:hover {
 
 .active {
   color: gray;
+  margin: 10px;
 }

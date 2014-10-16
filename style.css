@@ -10,7 +10,7 @@
   background:         linear-gradient(90deg, #780206 10%, #061161 90%); /* W3C */
     height: 50px;
     width: 100%;
-    position: fixed;
+    position: static;
     z-index: 10;
 }
 

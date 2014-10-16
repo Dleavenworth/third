@@ -39,6 +39,5 @@ span:hover {
 }
 
 .active {
-  background-color: gray;
-  z-index: 10px;
+  background-color: white;
 }

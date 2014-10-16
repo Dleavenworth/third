@@ -40,5 +40,7 @@ span:hover {
 
 .active {
   color: gray;
+  height: 50px;
+  width: 10%;
 }
 }

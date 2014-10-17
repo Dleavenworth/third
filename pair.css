@@ -1,0 +1,14 @@
+marquee {
+  font-size: 100px;
+  font-family: Verdana;
+  color: RED;
+}
+
+::selection {
+  color: blue;
+  background-color: white;
+}
+
+body {
+  background-color:lime;
+}

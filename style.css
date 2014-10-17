@@ -52,8 +52,8 @@ a:visited {
 }
 
 ::selection {
-  color: blue;
-  background-color: white;
+  color: white;
+  background-color: red;
 }
 
 .header {
@@ -74,3 +74,37 @@ marquee {
   color: black;
 }
 
+.image1 {
+  width: 20px;
+  height: 20px;
+}
+
+.image2 {
+  width: 20px;
+  height: 20px;
+}
+
+.image3 {
+  width: 20px;
+  height: 20px;
+}
+
+.image4 {
+  width: 20px;
+  height: 20px;
+}
+
+.image5 {
+  width: 20px;
+  height: 20px;
+}
+
+.image6 {
+  width: 20px;
+  height: 20px;
+}
+
+.image7 {
+  width: 20px;
+  height: 20px;
+}

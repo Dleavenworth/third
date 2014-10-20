@@ -108,3 +108,7 @@ marquee {
 	width: 20px;
 	height: 20px;
 }
+
+.inline {
+  display: inline;
+}

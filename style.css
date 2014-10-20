@@ -109,3 +109,6 @@ marquee {
 	height: 20px;
 }
 
+code {
+  font-family: monospace;
+  font-size: 16px;

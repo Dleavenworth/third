@@ -30,7 +30,7 @@ a:hover {
 .black {
 	color: white;
 	font-family: Verdana;
-	text-align: center;
+	text-align: left;
 }
 
 .active {
@@ -59,7 +59,7 @@ a:visited {
 .header {
 	font-family: Impact;
 	font-size: 40px;
-	text-align: center;
+	text-align: left;
 	color: white;
 }
 

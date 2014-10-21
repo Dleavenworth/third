@@ -26,7 +26,7 @@ a:hover {
   color: #3eb2b9;
 }
 
-.black {
+p {
   color: white;
   font-family: Verdana;
   text-align: left;
@@ -112,3 +112,4 @@ code {
   font-family: monospace;
   font-size: 16px;
   text-align: left;
+}

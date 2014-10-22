@@ -118,3 +118,7 @@ a {
   color: white;
   text-align: left;
 }
+
+pre {
+  text-align: left;
+}

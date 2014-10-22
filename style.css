@@ -30,6 +30,7 @@ a:hover {
   color: white;
   text-align: left;
   font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 60px;
 }
 
 .active {

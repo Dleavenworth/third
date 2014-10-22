@@ -28,8 +28,8 @@ a:hover {
 
 .black {
   color: white;
-  font-family: Verdana;
   text-align: left;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .active {

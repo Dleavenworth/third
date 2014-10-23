@@ -1,3 +1,5 @@
+////////////
+//This does not work never believe Alex again
 /*$("a").click(function() {
   return $("html, body").animate({
   scrollTop: $($.attr(this, "href")).offset().top

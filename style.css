@@ -77,36 +77,43 @@ marquee {
 .image1 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 
 .image2 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 
 .image3 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 
 .image4 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 
 .image5 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 
 .image6 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 
 .image7 {
   width: 350px;
   height: 350px;
+  border-radius: 20px;
 }
 
 code {
@@ -123,5 +130,6 @@ link {
 .image8 {
   width: 350px;
   height: 350px;
+  border-radius: 100%;
 }
 

@@ -1,0 +1,19 @@
+img {
+  transition: all ease  0.5s;
+  height: 200px;
+  width: 200px;
+}
+
+img:hover {
+  transform: rotateZ(2000000000000000000000000000000000deg);
+}
+
+/*@-webkit-keyframes spin {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}*/
+

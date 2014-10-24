@@ -1,11 +1,11 @@
 img {
   transition: all ease  0.5s;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 img:hover {
-  transform: rotateZ(2000000000000000000000000000000000deg);
+  transform: rotateZ(9000000000000000000000000000000000deg);
 }
 
 /*@-webkit-keyframes spin {

@@ -1,25 +1,25 @@
-function show_cal(){
 
-  function num{
+function show_cal() {
+  function num() {
     a=Number(document.form1.num1.value);
     b=Number(document.form1.num2.value);
     c=a+b;
-    document.form1.result1.value=c;
+    document.form1.num1.value=c;
 
     a=Number(document.form1.num1.value);
     b=Number(document.form1.num2.value);
     c=a-b;
-    document.form1.result2.value=c;
+    document.form1.num1.value=c;
 
     a=Number(document.form1.num1.value);
     b=Number(document.form1.num2.value);
     c=a*b;
-    document.form1.result3.value=c;
+    document.form1.num1.value=c;
 
     a=Number(document.form1.num1.value);
-    b-Number(document.form1.num1.value);
+    b=Number(document.form1.num2.value);
     c=a/b;
-    document.form1.result4.value=c;
+    document.form1.num1.value);
   }
 
   function addition() {
@@ -45,12 +45,9 @@ function show_cal(){
 
   function division() {
     a=Number(document.form1.num9.value);
-    b-Number(document.form1.num10.value);
+    b=Number(document.form1.num9.value);
     c=a/b;
     document.form1.result4.value=c;
   }
   num();
 }
-
-
-

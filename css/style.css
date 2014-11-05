@@ -151,7 +151,6 @@ h1 {
   color: #000;
 }
 
-/*container-fluid {
-  color: blue;
+navbar:hover {
   background-color: purple;
-}*/
+}

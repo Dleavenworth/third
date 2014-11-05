@@ -150,3 +150,8 @@ br+input {
 h1 {
   color: #000;
 }
+
+navbar {
+  color: blue;
+  background-color: purple;
+}

@@ -150,6 +150,7 @@ br+input {
 h1 {
   color: #000;
 }
-nav {
-  float: left;
+
+navbar {
+  position: left;
 }

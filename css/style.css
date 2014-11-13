@@ -7,23 +7,8 @@ body {
   font-family: Times;
   padding-top: 50px;
   background-image:url(../img/WF31DfX.png)
-  /*background: -webkit-linear-gradient(360deg, #E6DADA 10%, #274046 90%); /* Chrome 10+, Saf5.1+ */
-  /*background:    -moz-linear-gradient(360deg, #E6DADA 10%, #274046 90%); /* FF3.6+ */
-  /*background:     -ms-linear-gradient(360deg, #E6DADA 10%, #274046 90%); /* IE10 */
-  /*background:      -o-linear-gradient(360deg, #E6DADA 10%, #274046 90%); /* Opera 11.10+ */
-  /*background:         linear-gradient(360deg, #E6DADA 10%, #274046 90%); /* W3C */
-
-
-  /*background: -webkit-linear-gradient(180deg, #283048 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
-  /*background:    -moz-linear-gradient(180deg, #283048 10%, #859398 90%); /* FF3.6+ */
-  /*background:     -ms-linear-gradient(180deg, #283048 10%, #859398 90%); /* IE10 */
-  /*background:      -o-linear-gradient(180deg, #283048 10%, #859398 90%); /* Opera 11.10+ */
-  /*background:         linear-gradient(180deg, #283048 10%, #859398 90%); /* W3C */
 }
 
-
-a:hover {
-  color: red;
 }
 
 .black {
@@ -35,16 +20,8 @@ a:hover {
 
 .active {
   background-color: #3941aa; /*#3eb2b9;*/
-  /*padding: 10px;*/
   border-radius:  12px;
 
-}
-a:link{
-  color: white;
-}
-
-a:visited {
-  color: white;
 }
 
 .container {
@@ -66,12 +43,9 @@ a:visited {
 span {
   font-family: "Segoe Ui";
   font-size: 20px;
-  color: red;
+  color: #EB01A5;
 }
 
-marquee {
-  text-align: left;
-  color: white;
 }
 
 .image1 {
@@ -155,6 +129,3 @@ h1 {
 background-color: #EB01A5;
 }*/
 
-  a {
-    color: #EB01A5;
-  }

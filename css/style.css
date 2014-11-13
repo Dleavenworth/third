@@ -41,9 +41,11 @@ body {
 
 span {
   font-size: 20px;
-  color: #EB01A5;
+  color: red;
 }
 
+.list {
+  color: #EB0A15;
 }
 
 .image1 {

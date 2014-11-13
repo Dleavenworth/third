@@ -125,4 +125,7 @@ h1 {
 .navbar-fixed-top {
 background-color: #EB01A5;
 }
+a:visited {
+  color: white;
+}
 

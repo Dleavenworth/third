@@ -152,8 +152,9 @@ h1 {
 }
 
 /*.navbar-header {
-  background-color: #EB01A5;
+background-color: #EB01A5;
 }*/
-  li {
+
+  a {
     color: #EB01A5;
   }

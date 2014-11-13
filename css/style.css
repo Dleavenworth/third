@@ -44,10 +44,6 @@ span {
   color: red;
 }
 
-.list {
-  color: #EB0A15;
-}
-
 .image1 {
   width: 350px;
   height: 350px;
@@ -129,3 +125,6 @@ h1 {
 background-color: #EB01A5;
 }*/
 
+  pre {
+    color: #EB02A5;
+  }

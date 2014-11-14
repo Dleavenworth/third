@@ -117,30 +117,26 @@ br+input {
   /*color: red;*/
 }
 
-/*h1 {
-color: white;
-}*/
-
-  .container-fluid {
-    color: #EB01A5;
-  }
-  a:visited {
-    color: white;
-  }
-
-  a:link {
-    color: white;
-  }
-
-  a:hover {
-    color: white;
-  }
-
-  /*h2 {
+.container-fluid {
+  color: #EB01A5;
+}
+a:visited {
   color: white;
-  }*/
+}
 
-  button {
-    background: #000;
-    border-radius: 20pc;
-  }
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+button {
+  background: #000;
+  border-radius: 20pc;
+}
+
+.navbar-default {
+  background-color: #EB01A5;
+}

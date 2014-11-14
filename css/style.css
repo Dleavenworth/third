@@ -140,3 +140,8 @@ button {
 .navbar-default {
   color: #EB01A5;
 }
+
+.redbutton {
+  color: red;
+  background-color: red;
+}

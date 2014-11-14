@@ -118,28 +118,28 @@ br+input {
 }
 
 /*h1 {
-  color: white;
+color: white;
 }*/
 
-.container-fluid {
-  color: #EB01A5;
-}
-a:visited {
-  color: white;
-}
+  .container-fluid {
+    color: #EB01A5;
+  }
+  a:visited {
+    color: white;
+  }
 
-a:link {
-  color: white;
-}
+  a:link {
+    color: white;
+  }
 
-a:hover {
-  color: white;
-}
+  a:hover {
+    color: white;
+  }
 
-/*h2 {
+  /*h2 {
   color: white;
-}*/
+  }*/
 
   button {
-    border-radius: 5px;
+    border-radius: 20pc;
   }

@@ -1,6 +1,5 @@
 html {
   min-height: 100%;
-
 }
 
 body {
@@ -41,7 +40,7 @@ body {
 
 span {
   font-size: 20px;
-  color: red;
+  color: white;
 }
 
 .image1 {
@@ -119,7 +118,7 @@ br+input {
 }
 
 h1 {
-  color: #000;
+  color: white;
 }
 
 .container-fluid {
@@ -134,5 +133,9 @@ a:link {
 }
 
 a:hover {
+  color: white;
+}
+
+h2 {
   color: white;
 }

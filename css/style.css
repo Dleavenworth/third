@@ -117,9 +117,9 @@ br+input {
   /*color: red;*/
 }
 
-h1 {
+/*h1 {
   color: white;
-}
+}*/
 
 .container-fluid {
   color: #EB01A5;
@@ -136,6 +136,10 @@ a:hover {
   color: white;
 }
 
-h2 {
+/*h2 {
   color: white;
-}
+}*/
+
+  button {
+    border-radius: 5px;
+  }

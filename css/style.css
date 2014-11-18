@@ -145,3 +145,10 @@ button {
   color: white;
   background-color: black;
 }
+
+.dropdown select {
+  border: 0 !important;.
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: black;
+}

@@ -146,9 +146,6 @@ button {
   background-color: black;
 }
 
-.dropdown select {
-  border: 0 !important;.
-  -webkit-appearance: none;
-  -moz-appearance: none;
+.dropdown:active {
   background: black;
 }

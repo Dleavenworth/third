@@ -40,3 +40,5 @@ var results = function() {
   $('.multi.result').text(fmulti());
   $('.div.result').text(fdiv());
 };
+
+

@@ -96,7 +96,26 @@ function submitQuestion() {
 
   var current_question = Math.floor((Math.random() * questions.length));
   while(my_hash[''+current_question]) {
+    current_question = Math.floor((Math.random() * questions.length));
+  }
+  if(!isPlayer1) { 
+    current_question = queue.shift();
+  }
+  else {
+    queue.push(current_question);
+  }
 
+  my_hash[''+current_question] = 1;
+  document.getElementById("question_text").innerHTML = questions[current_question]['question'];
+  document.getElementById("answer_textA").innerHTML = questions[current_question]['optionA'];
+  document.getElementById("answer_textB").innerHTML = questions[current_question]['optionB'];
+    document.getElementById("answer_textC").innerHTML = question[current_question]['optionC'];
+    document.getElementById("answer_textD").innerHTML = question[current_question]['optionD'];
+
+    prev_question = current_question;
+    asked_questions++;
+}
+submitQuestion();
   }
 }
   </script>

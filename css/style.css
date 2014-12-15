@@ -22,5 +22,5 @@
 .icon > svg path { fill: #828282; }
 /** Colors */
 ::selection {
-  background-color: purple;
+  color: purple;
 }

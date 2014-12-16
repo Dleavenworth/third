@@ -15,5 +15,7 @@
 
 7. Then admire my work and feel like I'm better than everyone else
 
-8. DONE!
+8. Make testing work
+
+9. Done! 
 

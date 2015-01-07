@@ -41,4 +41,3 @@ var results = function() {
   $('.div.result').text(fdiv());
 };
 
-

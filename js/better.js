@@ -1,4 +1,4 @@
-/*var one = document.getElementById("one");
+var one = document.getElementById("one");
 one.addEventListener("click", mathify);
 
 var two = document.getElementById("two");
@@ -66,24 +66,4 @@ function mathify(){
     var btnVal = output.innerHTML;
 
   }
-  }*/
-var numb = document.querySelectorAll('div.button')
-for(var i = 0; numb.length; i++) {
-  numb[i].addEventListener("click", mathify); 
-}
-var output = document.getElementById("display");
-
-function mathify(){  
-  switch(this.innerHTML) {
-    case '=':
-      if(output.innerHTML !== '') {
-        output.innerHTML = new Function('return' + output.innerHTML)();
-      }
-      break;
-    case 'Clear':
-      output.innerHTML = '';
-      break;
-    default:
-      output.innerHTML += this.innerHTML;
   }
-}

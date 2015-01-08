@@ -1,5 +1,4 @@
 # Plan of action:
-![](https://travis-ci.org/everestps/third.svg)
 
 1. Manage to get hosting to work and make sure that the skeleton is working
 

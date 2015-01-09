@@ -19,16 +19,16 @@ function mathify() {
     switch(input[1]) {
       case '+':
         return input[0] + input[2];
-        break;
+        //break;
       case '-':
         return input[0] - input[2];
-        break;
+        //break;
       case '*': 
         return input[0] * input[2];
-        break;
+        //break;
       case '/': 
         return input[0] / input[2];
-        break;
+        //break;
       default:
         return "Error";
     }

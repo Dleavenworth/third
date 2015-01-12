@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel ="stylesheet" href="//cdn.smtcs.rocks/md/md.css">
+<script src="//jashkenas.github.io/coffee-script/extras/coffee-script.js"></script>
+<link rel ="stylesheet" href="//cdn.smtcs.rocks/md/md.css"> 
 <link type="text/css" rel="stylesheet" href="css/footer.css"/>
 <link tpye="text/css" rel="stylesheet" href="css/calc.css"/>
 <title>
@@ -23,49 +24,35 @@
 <div id="display"></div>
 <div class="row">
   <a id="seven" class="button num waves-effect waves-light btn">7</a>
-  <!--<div class="button" id="seven">7</div>-->
+
   <a id="eight" class="button num  waves-effect waves-light btn">8</a>
   <a id="nine" class="button num waves-effect waves-light btn">9</a>
-  <a id="add" class="button num waves-effect waves-light btn">+</a>
-  <a id="clear" class="opp waves-effect waves-light btn">Clear</a>
-  <!--<div class="button" id="eight">8</div>
-  <div class="button" id="nine">9</div>
-  <div class="button opp" id="add">+</div>
-  <div class="button" id="clear">Clear</div>-->
+  <a id="add" data-value="+" class="button opp num waves-effect waves-light btn">+</a>
+  <a id="clear" data-value="c" class="button opp waves-effect waves-light btn">Clear</a>
 </div>
 
 <div class="row">
   <a id="four" class="button num waves-effect waves-light btn">4</a>
   <a id="five" class="button num waves-effect waves-light btn">5</a>
   <a id="six" class="button num waves-effect waves-light btn">6</a>
-  <a id="subtract" class="button opp waves-effect waves-light btn">-</a>
- <!-- <div class="button" id="four">4</div>
-  <div class="button" id="five">5</div>
-  <div class="button" id="six">6</div>
-  <div class="button opp" id="subtract">-</div>-->
+  <a id="subtract" data-value="-" class="button opp waves-effect waves-light btn">-</a>
+  <a id="power" data-value="^" class="button opp waves-effect waves-light btn">^</a>
 </div>
 
 <div class="row">
   <a id="one" class="button num waves-effect waves-light btn">1</a>
   <a id="two" class="button num waves-effect waves-light btn">2</a>
   <a id="three"class="button num waves-effect waves-light btn">3</a>
-  <a id="multiply" class="button opp waves-effect waves-light btn">*</a>
- <!-- <div class="button" id="one">1</div>
-  <div class="button" id="two">2</div>
-  <div class="button" id="three">3</div>
-  <div class="button opp" id="multiply">*</div>-->
+  <a id="multiply" data-value="*" class="button opp waves-effect waves-light btn">*</a>
+  <a id="modulo" data-value="%" class="button opp waves-effect waves-light btn">%</a>
 </div>
 
 <div class="row">
   <a id="zero" class="button num waves-effect waves-light btn">0</a>
   <a id="dot" class="button opp waves-effect waves-light btn">.</a>
-  <a id="equals" class="button opp waves-effect waves-light btn">=</a>
-  <a id="divide" class="button opp waves-effect waves-light btn">/</a>
-   <!-- <div class="button" id="zero">0</div>
-    <div class="button" id="dot">.</div>
-    <div class="button" id="equals">=</div>
-    <div class="button opp" id="divide">/</div>-->
-  </div>
+  <a id="equals" data-value="=" class="button opp waves-effect waves-light btn">=</a>
+  <a id="divide" data-value="/" class="button opp waves-effect waves-light btn">/</a>
+</div>
 
 
 
@@ -75,3 +62,5 @@
 <script src="js/better.js"></script>
 </body>
 </html>
+
+

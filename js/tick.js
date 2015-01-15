@@ -43,4 +43,7 @@ function winCheck() {
   else if (sq3.innerHTML === sq5.innerHTML && sq5.innerHTML === sq7.innerHTML) {
     alert("Someone wins");
   }
+  else {
+    alert("Error");
+  }
 }

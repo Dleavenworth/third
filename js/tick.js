@@ -13,6 +13,6 @@ function runGame() {
    this.innerHTML = 'O';
   }
  if (turns === 10) {
-  alert("WWE SUPPPPPPEEEERRRR SMMMMAAAAACCCCCKKKKKK DDDDDDOOOOWWWWNNN");
+  alert("Cat's game");
  } 
 }

@@ -1,6 +1,6 @@
 var keys = document.querySelectorAll('div.box');
 for (var i = 0; i < keys.length; i++) {
-  keys[i].addEventListener('click', runGame);
+  keys[i].addEventListener('click', runGame, winCheck);
 }
 var turns = 1;
 function runGame() {
@@ -15,7 +15,6 @@ function runGame() {
   if (turns === 10) {
     alert("Cat's game");
   }
- winCheck(); 
 }
 
 function winCheck() {

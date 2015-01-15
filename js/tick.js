@@ -2,7 +2,14 @@ var keys = document.querySelectorAll('div.box');
 for (var i = 0; i < keys.length; i++) {
   keys[i].addEventListener('click', runGame);
 }
-
+var turns = 1; 
 function runGame() {
-  this.innerHTML = 'X'; 
+  if(turns % 2 === 0) {
+    turns++;
+  this.innerHTML = 'X';
+  }
+  else {
+    turns++;
+   this.innerHTML = 'O';
+  } 
 }

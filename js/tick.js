@@ -1,6 +1,6 @@
 var keys = document.querySelectorAll('div.box');
 for (var i = 0; i < keys.length; i++) {
-  keys[i].addEventListener('click', runGame, winCheck);
+  keys[i].addEventListener('click', runGame);
 }
 var turns = 1;
 function runGame() {
@@ -15,6 +15,7 @@ function runGame() {
   if (turns === 10) {
     alert("Cat's game");
   }
+  winCheck();
 }
 
 function winCheck() {
@@ -29,7 +30,7 @@ function winCheck() {
   var sq9 = document.getElementById('box8');
 
   if (sq1.innerHTML === sq2.innerHTML && sq2.innerHTML === sq3.innerHTML) {
-    alert("Someone wins"); 
+   alert("Someone wins"); 
   }
   else if (sq4.innerHTML === sq5.innerHTML && sq5.innerHTML === sq6.innerHTML) {
     alert("Someone wins");

@@ -11,5 +11,8 @@ function runGame() {
   else {
     turns++;
    this.innerHTML = 'O';
-  } 
+  }
+ if (turns === 10) {
+  alert("WWE SUPPPPPPEEEERRRR SMMMMAAAAACCCCCKKKKKK DDDDDDOOOOWWWWNNN");
+ } 
 }

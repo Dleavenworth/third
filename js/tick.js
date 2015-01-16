@@ -30,28 +30,43 @@ function winCheck(targt) {
   var sq9 = document.getElementById('box8');
 
   if (sq1.innerHTML === sq2.innerHTML && sq2.innerHTML === sq3.innerHTML) {
-    for(var i = 0; i < 9; i++){
+    for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
+      if (targt.innerHTML.length === 1) {
+        alert("Someone wins");
+      }
     }  
   }
   else if (sq4.innerHTML === sq5.innerHTML && sq5.innerHTML === sq6.innerHTML) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
+      if (targt.innerHTML.length === 1) {
+        alert("Someone wins");
+      }
     }
   }
   else if (sq7.innerHTML === sq8.innerHTML && sq8.innerHTML === sq9.innerHTML) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
+      if (targt.innerHTML.length === 1) {
+        alert("Someone wins");
+      }
     }
   }
   else if (sq1.innerHTML === sq5.innerHTML && sq5.innerHTML === sq9.innerHTML) {
     for( var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = this.innerHTML;
+      if (targt.innerHTML.length === 1) {
+        alert("Someone wins");
+      }
     }
   }
   else if (sq3.innerHTML === sq5.innerHTML && sq5.innerHTML === sq7.innerHTML) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = this.innerHTML;
+      if (targt.innerHTML.length === 1) {
+        alert("Someone wins");
+      }
     }
   }
   else {

@@ -33,7 +33,7 @@ function winCheck(targt) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
       if (targt.innerHTML.length === 1) {
-        alert("Someone wins");
+        //alert("Someone wins");
       }
     }  
   }
@@ -41,7 +41,7 @@ function winCheck(targt) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
       if (targt.innerHTML.length === 1) {
-        alert("Someone wins");
+        //alert("Someone wins");
       }
     }
   }
@@ -49,7 +49,7 @@ function winCheck(targt) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
       if (targt.innerHTML.length === 1) {
-        alert("Someone wins");
+        //alert("Someone wins");
       }
     }
   }
@@ -57,7 +57,7 @@ function winCheck(targt) {
     for( var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = this.innerHTML;
       if (targt.innerHTML.length === 1) {
-        alert("Someone wins");
+       //alert("Someone wins");
       }
     }
   }
@@ -65,7 +65,7 @@ function winCheck(targt) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = this.innerHTML;
       if (targt.innerHTML.length === 1) {
-        alert("Someone wins");
+        //alert("Someone wins");
       }
     }
   }

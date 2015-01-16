@@ -14,10 +14,10 @@ function runGame(evt) {
     turns++;
     this.innerHTML = 'O';
   }
-  if (turns === 10) {
+  winCheck(evt.target);
+  if (turns === 19) {
     alert("Cat's game");
   }
-  winCheck(evt.target);
 }
 //Function checks for win 
 function winCheck(targt) {

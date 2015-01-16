@@ -15,9 +15,9 @@ function runGame(evt) {
     this.innerHTML = 'O';
   }
   winCheck(evt.target);
-  if (turns === 19) {
+/*  if (turns === 19) {
     alert("Cat's game");
-  }
+  }*/
 }
 //Function checks for win 
 function winCheck(targt) {

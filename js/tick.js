@@ -56,7 +56,4 @@ function winCheck(targt) {
       document.getElementById('box' + i).innerHTML = this.innerHTML;
     }
   }
-  else {
-    alert("Error");
-  }
 }

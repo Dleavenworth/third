@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Riot demo
+    </title>
+  </head>
+  <body>
+    <todo></todo>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.0.2/riot.min.js"></script>
+    <script src="js/todo.js">
+<script>
+riot.mount('todo', {
+        title: 'I want to behave!',
+        items: [
+          { title: 'Avoid excessive coffeine', done: true },
+          { title: 'Hidden item', hidden: true },
+                  { title: 'Be less provocative' },
+                          { title: 'Be nice to people' }
+      ]
+            })
+</script>
+  </body>
+</html>
+

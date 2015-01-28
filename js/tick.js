@@ -21,11 +21,11 @@ function runGame(evt) {
 }
 //Function checks for win 
 function winCheck(targt) {
-  //for(var i = 0; i < 9; i++) {
+  /*for(var i = 0; i < 9; i++) {
     for(var i = 0; i => 9; i++) {
    eval("var sq"+(i+1)+" = document.getElementById('box"+(i+1)+"');");
-    }
-  /*var sq1 = document.getElementById('box0');
+    }*/
+  var sq1 = document.getElementById('box0');
   var sq2 = document.getElementById('box1');
   var sq3 = document.getElementById('box2');
   var sq4 = document.getElementById('box3');
@@ -33,7 +33,7 @@ function winCheck(targt) {
   var sq6 = document.getElementById('box5');
   var sq7 = document.getElementById('box6');
   var sq8 = document.getElementById('box7');
-  var sq9 = document.getElementById('box8');*/
+  var sq9 = document.getElementById('box8');
 
   if (sq1.innerHTML === sq2.innerHTML && sq2.innerHTML === sq3.innerHTML && sq1.innerHTML.length === 1 ) {
     for(var i = 0; i < 9; i++) {

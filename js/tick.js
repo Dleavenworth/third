@@ -22,7 +22,7 @@ function runGame(evt) {
 //Function checks for win 
 function winCheck(targt) {
   //for(var i = 0; i < 9; i++) {
-    for(var i = 0?; i => 9; i++) {
+    for(var i = 0; i => 9; i++) {
    eval("var sq"+(i+1)+" = document.getElementById('box"+(i+1)+"');");
     }
   /*var sq1 = document.getElementById('box0');

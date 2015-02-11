@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="//jashkenas.github.io/coffee-script/extras/coffee-script.js"></script>
-<link rel ="stylesheet" href="//cdn.smtcs.rocks/md/md.css"> 
-<link type="text/css" rel="stylesheet" href="css/footer.css"/>
-<link tpye="text/css" rel="stylesheet" href="css/calc.css"/>
-<title>
-  Calculator
-</title>
-</head>
-<body>
-<nav id="font-page-nav" class="cyan lighten-1">
-  <div class="nav-wrapper">
-    <div class="col s12">
-      <a href="http://everestps.github.io/third/buttons" class="brand-logo">Calculator</a>
-      <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-naviagtion-menu"></i></a>
-      <ul class="right side-nav">
-        <li><a href="http://smtcs.rocks">SummitCS Homepage</a></li>
-        <li><a href="http://everestps.github.io/third/tick">Tic tak toe game</a></li>
-      </ul>
+  <head>
+    <script src="//jashkenas.github.io/coffee-script/extras/coffee-script.js"></script>
+    <link rel ="stylesheet" href="//cdn.smtcs.rocks/md/md.css"> 
+    <link type="text/css" rel="stylesheet" href="css/footer.css"/>
+    <link tpye="text/css" rel="stylesheet" href="css/calc.css"/>
+    <title>
+      Calculator
+    </title>
+  </head>
+  <body>
+    <nav id="font-page-nav" class="cyan lighten-1">
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a href="http://everestps.github.io/third/buttons" class="brand-logo">Calculator</a>
+          <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-naviagtion-menu"></i></a>
+          <ul class="right side-nav">
+            <li><a href="http://smtcs.rocks">SummitCS Homepage</a></li>
+            <li><a href="http://everestps.github.io/third/tick">Tic tak toe game</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="display"></div>
+    <div class="row">
+      <a id="seven" class="button num waves-effect waves-light btn">7</a>
+
+      <a id="eight" class="button num  waves-effect waves-light btn">8</a>
+      <a id="nine" class="button num waves-effect waves-light btn">9</a>
+      <a id="add" data-value="+" class="button opp num waves-effect waves-light btn">+</a>
+      <a id="clear" data-value="c" class="button opp waves-effect waves-light btn">Clear</a>
     </div>
-  </div>
-</nav>
-<div id="display"></div>
-<div class="row">
-  <a id="seven" class="button num waves-effect waves-light btn">7</a>
 
-  <a id="eight" class="button num  waves-effect waves-light btn">8</a>
-  <a id="nine" class="button num waves-effect waves-light btn">9</a>
-  <a id="add" data-value="+" class="button opp num waves-effect waves-light btn">+</a>
-  <a id="clear" data-value="c" class="button opp waves-effect waves-light btn">Clear</a>
-</div>
+    <div class="row">
+      <a id="four" class="button num waves-effect waves-light btn">4</a>
+      <a id="five" class="button num waves-effect waves-light btn">5</a>
+      <a id="six" class="button num waves-effect waves-light btn">6</a>
+      <a id="subtract" data-value="-" class="button opp waves-effect waves-light btn">-</a>
+      <a id="power" data-value="^" class="button opp waves-effect waves-light btn">^</a>
+    </div>
 
-<div class="row">
-  <a id="four" class="button num waves-effect waves-light btn">4</a>
-  <a id="five" class="button num waves-effect waves-light btn">5</a>
-  <a id="six" class="button num waves-effect waves-light btn">6</a>
-  <a id="subtract" data-value="-" class="button opp waves-effect waves-light btn">-</a>
-  <a id="power" data-value="^" class="button opp waves-effect waves-light btn">^</a>
-</div>
+    <div class="row">
+      <a id="one" class="button num waves-effect waves-light btn">1</a>
+      <a id="two" class="button num waves-effect waves-light btn">2</a>
+      <a id="three"class="button num waves-effect waves-light btn">3</a>
+      <a id="multiply" data-value="*" class="button opp waves-effect waves-light btn">*</a>
+      <a id="modulo" data-value="%" class="button opp waves-effect waves-light btn">%</a>
+    </div>
 
-<div class="row">
-  <a id="one" class="button num waves-effect waves-light btn">1</a>
-  <a id="two" class="button num waves-effect waves-light btn">2</a>
-  <a id="three"class="button num waves-effect waves-light btn">3</a>
-  <a id="multiply" data-value="*" class="button opp waves-effect waves-light btn">*</a>
-  <a id="modulo" data-value="%" class="button opp waves-effect waves-light btn">%</a>
-</div>
-
-<div class="row">
-  <a id="zero" class="button num waves-effect waves-light btn">0</a>
-  <a id="dot" class="button opp waves-effect waves-light btn">.</a>
-  <a id="equals" data-value="=" class="button opp waves-effect waves-light btn">=</a>
-  <a id="divide" data-value="/" class="button opp waves-effect waves-light btn">/</a>
-</div>
+    <div class="row">
+      <a id="zero" class="button num waves-effect waves-light btn">0</a>
+      <a id="dot" class="button opp waves-effect waves-light btn">.</a>
+      <a id="equals" data-value="=" class="button opp waves-effect waves-light btn">=</a>
+      <a id="divide" data-value="/" class="button opp waves-effect waves-light btn">/</a>
+    </div>
 
 
 
-<script src="/js/scroll.js"></script>
-<script src="//cdn.smtcs.rocks/jq/2.js"></script>
-<script src="//cdn.smtcs.rocks/md/md.js"></script>
-<script src="js/better.js"></script>
-</body>
+    <script src="/js/scroll.js"></script>
+    <script src="//cdn.smtcs.rocks/jq/2.js"></script>
+    <script src="//cdn.smtcs.rocks/md/md.js"></script>
+    <script src="js/better.js"></script>
+  </body>
 </html>
 
 

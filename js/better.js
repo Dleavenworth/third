@@ -18,25 +18,25 @@ function mathify() {
     switch (input[1]) {
       case '+':
         ans = input[0] + input[2];
-        break;
+      break;
       case '-':
         ans = input[0] - input[2];
-        break;
+      break;
       case '*':
         ans = input[0] * input[2];
-        break;
+      break;
       case '/':
         ans = input[0] / input[2];
-        break;
+      break;
       case '^':
         ans = Math.pow(input[0], input[2]);
-        break;
+      break;
       case '%':
         ans = input[0] % input[2];
-        break;
+      break;
       default:
         console.log("Reached default");
-        ans = NaN;
+      ans = NaN;
     }
     output.innerHTML = ans;
 

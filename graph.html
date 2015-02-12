@@ -90,11 +90,17 @@ var rScale = d3.scale.linear()
   .append("svg")
   .attr("width", w)
   .attr("height", h);
-  var line = d3.svg.line()
-      .interpolate(function(points) { return points.join("A 1,1 0 0 1 "); })
-          .x(function(d) { return x(d.x); })
-              .y(function(d) { return y(d.y); });
-
+var line = d3.svg.line()
+  .interpolate(function(points) { return points.join("A 1,1 0 0 1 "); })
+  .x(function(d) { return x(d.x); })
+  .y(function(d) { return y(d.y); });
+  svg.selectAll(".dot")
+.data(data)
+  .enter().append("circle")
+  .attr("class", "dot")
+  .attr("cx", line.x())
+  .attr("cy", line.y())
+  .attr("r", 3.5);
   //Create circles
   svg.selectAll("circle")
   .data(dataset)

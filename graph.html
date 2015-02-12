@@ -90,8 +90,6 @@ var rScale = d3.scale.linear()
   .append("svg")
   .attr("width", w)
   .attr("height", h);
-  g.append("path")
-      .attr("d", function(d) { return line(d) + "Z"; });
 
   //Create circles
   svg.selectAll("circle")

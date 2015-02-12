@@ -77,13 +77,13 @@ var rScale = d3.scale.linear()
   var xAxis = d3.svg.axis()
 .scale(xScale)
   .orient("bottom")
-  .ticks(5);
+  .ticks(15);
 
   //Define Y axis
   var yAxis = d3.svg.axis()
 .scale(yScale)
   .orient("left")
-  .ticks(5);
+  .ticks(15);
 
   //Create SVG element
   var svg = d3.select("body")

@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>
-    Polymer
-  </title>
-  <link rel="import" href="http://cdn.smtcs.rocks/polymer/paper-button/paper-button.html">
-  <link rel="import" href="http://cdn.smtcs.rocks/pl/pl.html">
-</head>
-<body>
-  <polymer-element name="my-element" noscript>
-  <template>
-  <span>Hello from <b>my-element</b>. This is my shadow</span>
-  </template>
-  </polymer-element>
-  <my-element></my-element>
-  <script src="http://cdn.smtcs.rocks/pl/wc.js"></script>
-</body>
+  <head>
+    <title>
+      Polymer
+    </title>
+    <!--<script src="http://cdn.smtcs.rocks/pl/wc.js"></script>-->
+    <!--    <link rel="import" href="http://cdn.smtcs.rocks/pl/pl.html">-->
+  </head>
+  <body>
+    <p>This is text test</p>
+   <!-- <polymer-element name="my-element">
+    <template>
+    This element has a ready() method.
+    <span id="el">Not ready...</span>
+    </template>
+    <script>
+Polymer({
+owner:"Third",
+  ready: function() {
+    this.$.el.textContent = this.owner + " is ready";
+  }
+});
+    </script>
+    </polymer-element>
+    <my-element></my-element>
+    <polymer-element name="name-tag">
+    <template>
+    This is <b> {{owner}} </b>'s name tag element.
+    </template>
+    <script>
+Polymer({
+owner: 'Third'
+});
+    </script>
+    </polymer-element>
+    <name-tag></name-tag>-->
+    <paper-button raised class="my-button">This</paper-button raised>
+    <paper-progress value="30"></paper-progress>
+    <link rel="import" href="http://cdn.smtcs.rocks/polymer/paper-button/paper-button.html">
+    <link rel="import" href="http://cdn.smtcs.rocks/polymer/paper-progress/paper-progress.html">
+  </body>
 </html>

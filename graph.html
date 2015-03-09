@@ -42,15 +42,15 @@ var padding = 30;
 
 
 //Static dataset
-var dataset = [
+/*var dataset = [
 [5, 20], [480, 90], [250, 50], [100, 33], [330, 95],
   [410, 12], [475, 44], [25, 67], [85, 21], [220, 88],
   [600, 150]
-  ];
+  ];*/
 
 
   //Dynamic, random dataset
-  /*var dataset = [];         //Initialize empty array
+  var dataset = [];         //Initialize empty array
     var numDataPoints = 50;       //Number of dummy data points to create
     var xRange = Math.random() * 1000;  //Max range of new x values
     var yRange = Math.random() * 1000;  //Max range of new y values
@@ -58,7 +58,7 @@ var dataset = [
     var newNumber1 = Math.round(Math.random() * xRange);  //New random integer
     var newNumber2 = Math.round(Math.random() * yRange);  //New random integer
     dataset.push([newNumber1, newNumber2]);         //Add new number to array
-    }*/
+    }
 
   //Create scale functions
 var xScale = d3.scale.linear()

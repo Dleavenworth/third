@@ -38,11 +38,11 @@
     <script>
 //The data for our line
 var dataset = [
-  [5, 20], [480, 90], [250, 50], [100, 33], [330, 95],
+[5, 20], [480, 90], [250, 50], [100, 33], [330, 95],
   [410, 12], [475, 44], [25, 67], [85, 21], [220, 88],
   [600, 150]
-    ];
-var lineData = [ { "x": 1,   "y": 5},  { "x": 20,  "y": 20},
+  ];
+  var lineData = [ { "x": 1,   "y": 5},  { "x": 20,  "y": 20},
 { "x": 40,  "y": 10}, { "x": 60,  "y": 40},
 { "x": 80,  "y": 5},  { "x": 100, "y": 60}];
 
@@ -50,21 +50,21 @@ var xScale = d3.scale.linear()
   .domain([2, d3.max(dataset, function(d) { return d[0]; })])
   .range([padding, w - padding * 2]);
 
-  var yScale = d3.scale.linear()
+var yScale = d3.scale.linear()
   .domain([2, d3.max(dataset, function(d) { return d[1]; })])
   .range([h - padding, padding]);
 
-  var rScale = d3.scale.linear()
+var rScale = d3.scale.linear()
   .domain([0, d3.max(dataset, function(d) { return d[1]; })])
   .range([2, 5]);
 
   var xAxis = d3.svg.axis()
-  .scale(xScale)
+.scale(xScale)
   .orient("bottom")
   .ticks(15);
 
   var yAxis = d3.svg.axis()
-  .scale(yScale)
+.scale(yScale)
   .orient("left")
   .ticks(15);i
 
@@ -76,7 +76,7 @@ var xScale = d3.scale.linear()
   svg.append("g")
   .attr("class", "axis")
   .attr("transform", "translate(" + padding + ",0)")
-//This is the accessor function we talked about above
+  //This is the accessor function we talked about above
 var lineFunction = d3.svg.line()
   .x(function(d) { return d.x; })
   .y(function(d) { return d.y; })

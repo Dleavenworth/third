@@ -2,7 +2,7 @@
 <html>
   <head>
     <script src="//jashkenas.github.io/coffee-script/extras/coffee-script.js"></script>
-    <link rel ="stylesheet" href="//cdn.smtcs.rocks/md/md.css"> 
+    <link href="//d2v52k3cl9vedd.cloudfront.net/basscss/6.0.0/basscss.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/footer.css"/>
     <link tpye="text/css" rel="stylesheet" href="css/calc.css"/>
     <title>
@@ -10,21 +10,18 @@
     </title>
   </head>
   <body>
-    <div class="navbar-fixed">
-      <nav class="cyan ligten-1">
-        <div class="nav-wrapper">
-          <a href="http://everestps.github.io/third/" class="brand-logo">Homepage</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="http://everestps.github.io/third/tick">Tick tack toe</a></li>
-            <li><a href="http://dleavenworth.github.io/React-calendar/">Calendar</a></li>
-          </ul>
+      <nav class="clearfix white bg-blue">
+        <div class="sm-col">
+          <a class="button py2 button-transparent" href="tick.html">Tick tack toe</a>
+          <a class="button py2 button-transparent" href="http://dleavenworth.github.io/React-calendar/">Calendar</a>
+        </div>
+        <div class="sm-col-right">
+          <a class="button py2 button-transparent" href="/">Home</a>
         </div>
       </nav>
-    </div>
     <div id="display"></div>
     <div class="row">
       <a id="seven" class="button num waves-effect waves-light btn">7</a>
-
       <a id="eight" class="button num  waves-effect waves-light btn">8</a>
       <a id="nine" class="button num waves-effect waves-light btn">9</a>
       <a id="add" data-value="+" class="button opp num waves-effect waves-light btn">+</a>

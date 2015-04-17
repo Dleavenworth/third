@@ -15,7 +15,6 @@
     <button disabled={ !text }>Add #{ items.filter(filter).length + 1 }</button>
   </form>
 
-  <!-- this script tag is optional -->
   <script>
     this.items = opts.items
 
@@ -30,7 +29,6 @@
       }
     }
 
-    // an example how to filter items on the list
     filter(item) {
       return !item.hidden
     }

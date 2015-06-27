@@ -1,3 +1,4 @@
+var turnDisplay = document.getElementById('turns');
 //Adds event listener to all divs
 var keys = document.querySelectorAll('div.box');
 for (var i = 0; i < keys.length; i++) {
@@ -14,9 +15,10 @@ function runGame(evt) {
     turns++;
     this.innerHTML = 'O';
   }
+  turnDisplay.innerHTML = "Turns:" + turns;
   winCheck(evt.target);
 }
-//Function checks for win 
+//Function checks for win
 function winCheck(targt) {
   var sq1 = document.getElementById('box0');
   var sq2 = document.getElementById('box1');
@@ -31,7 +33,7 @@ function winCheck(targt) {
   if (sq1.innerHTML === sq2.innerHTML && sq2.innerHTML === sq3.innerHTML && sq1.innerHTML.length === 1 ) {
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
-    }  
+    }
   }
   else if (sq4.innerHTML === sq5.innerHTML && sq5.innerHTML === sq6.innerHTML && sq4.innerHTML.length === 1 ) {
     for(var i = 0; i < 9; i++) {

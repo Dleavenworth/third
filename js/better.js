@@ -6,15 +6,14 @@ var output = document.getElementById('display');
 var input = [];
 
 function mathify() {
-
-  console.log(this.classList.contains('opp'));   
+  console.log(this.classList.contains('opp'));
   console.log("length " + input.length);
   console.log(this.dataset.value);
   console.log(input);
   var ans = undefined;
   /// User hits = Sign ///
   if (this.dataset.value === '=' && input.length === 3) {
-    console.log("equals pushed");
+    console.log("Equals pushed");
     switch (input[1]) {
       case '+':
         ans = input[0] + input[2];
@@ -35,17 +34,18 @@ function mathify() {
         ans = input[0] % input[2];
       break;
       default:
-        console.log("Reached default");
+        console.log("Reached default setting ans to NaN");
       ans = NaN;
     }
     output.innerHTML = ans;
 
-  } else if (this.dataset.value === 'c') {
+  }
+  else if(this.dataset.value === 'c') {
     console.log("clearpushed");
     output.innerHTML = '';
     input = [];
   }
-  // Op 
+  // Op
   else if(input.length === 1 && this.classList.contains('opp')) {
     console.log("Operator");
     input.push((this.dataset.value));
@@ -53,12 +53,12 @@ function mathify() {
   }
 
   //Second number
-  else if (input.length >= 2) {
+  else if(input.length >= 2) {
     console.log("second number added/inputed");
-    if (input.length === 2) {
+    if(input.length === 2) {
       input.push(parseInt(this.innerHTML));
     }
-    else{
+    else {
       input[2] = input[2] * 10 + parseInt(this.innerHTML);
     }
     output.innerHTML = input[2];
@@ -67,12 +67,12 @@ function mathify() {
 
   }
   //First number
-  else if (input.length < 2) {
+  else if(input.length < 2) {
     console.log("first number added/inputed");
     if (input.length === 0) {
       input.push(parseInt(this.innerHTML));
     }
-    else{
+    else {
       input[0] = input[0] * 10 + parseInt(this.innerHTML);
     }
     output.innerHTML = input[0];

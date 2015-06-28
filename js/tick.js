@@ -80,15 +80,12 @@ function winCheck(targt) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
-  console.log("Got to the begining of the else");
-  console.log("winOrNo is: " + winOrNo);
-  
-  else if(winOrNo === true) {
+  /*else if(winOrNo === true) {
     for(var i = 0; i < 9; i++) {
        var blank = document.getElementById('box' + i).innerHTML = '';
       blank.innerHTML = targt.innerHTML;
     }
     console.clear();
     console.log("Someone won");
-    }
+  }*/
   }

@@ -15,7 +15,8 @@ function runGame(evt) {
     turns++;
     this.innerHTML = 'O';
   }
-  turnDisplay.innerHTML = "Turns:" + turns;
+  console.log("Turn: " + turns)
+  turnDisplay.innerHTML = "Turns: " + turns;
   winCheck(evt.target);
 }
 //Function checks for win
@@ -29,45 +30,65 @@ function winCheck(targt) {
   var sq7 = document.getElementById('box6');
   var sq8 = document.getElementById('box7');
   var sq9 = document.getElementById('box8');
+  var winOrNo = false;
 
   if (sq1.innerHTML === sq2.innerHTML && sq2.innerHTML === sq3.innerHTML && sq1.innerHTML.length === 1 ) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if (sq4.innerHTML === sq5.innerHTML && sq5.innerHTML === sq6.innerHTML && sq4.innerHTML.length === 1 ) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if (sq7.innerHTML === sq8.innerHTML && sq8.innerHTML === sq9.innerHTML && sq7.innerHTML.length === 1) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if (sq1.innerHTML === sq5.innerHTML && sq5.innerHTML === sq9.innerHTML && sq1.innerHTML.length === 1) {
+    winOrNo = true;
     for( var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if (sq3.innerHTML === sq5.innerHTML && sq5.innerHTML === sq7.innerHTML && sq3.innerHTML.length === 1) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if(sq1.innerHTML === sq4.innerHTML && sq4.innerHTML === sq7.innerHTML && sq1.innerHTML.length === 1) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if(sq2.innerHTML === sq5.innerHTML && sq5.innerHTML === sq8.innerHTML && sq2.innerHTML.length === 1) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
   else if(sq3.innerHTML === sq6.innerHTML && sq6.innerHTML === sq9.innerHTML && sq3.innerHTML.length === 1) {
+    winOrNo = true;
     for(var i = 0; i < 9; i++) {
       document.getElementById('box' + i).innerHTML = targt.innerHTML;
     }
   }
-}
+  console.log("Got to the begining of the else");
+  console.log("winOrNo is: " + winOrNo);
+  
+  else if(winOrNo === true) {
+    for(var i = 0; i < 9; i++) {
+       var blank = document.getElementById('box' + i).innerHTML = '';
+      blank.innerHTML = targt.innerHTML;
+    }
+    console.clear();
+    console.log("Someone won");
+    }
+  }
